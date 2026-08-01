@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://outerbounds.com
+standards:
+  - id: soc2
+    conforms: true
+    evidence: Outerbounds publicly states SOC 2 compliance support for the managed platform on outerbounds.com.
+  - id: hipaa
+    conforms: true
+    evidence: Outerbounds publicly states HIPAA compliance support for the managed platform on outerbounds.com.
+notes: >-
+  Compliance posture is asserted on the Outerbounds marketing site as platform
+  capabilities (HIPAA and SOC 2). No dedicated trust center or downloadable audit
+  report was found at a public /security or trust.outerbounds.com URL at probe time.

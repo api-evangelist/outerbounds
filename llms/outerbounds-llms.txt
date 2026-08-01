@@ -1,0 +1,29 @@
+# Outerbounds
+
+> Outerbounds is a fully managed platform for building and deploying production-grade AI, ML, and data systems, built on the open-source Metaflow framework (originally developed at Netflix). It brings data, models, and agents together with software discipline — scalable, cost-efficient compute integrated with your existing cloud and data platforms, GPU access and autoscaling, and enterprise controls (SOC 2, HIPAA). Outerbounds is joining Anaconda. The developer surface is the Metaflow Python SDK and the outerbounds configuration CLI, not a public REST API.
+
+## Products
+- [Outerbounds platform](https://outerbounds.com): Fully managed Metaflow — cloud workstations, autoscaling compute, GPU access, deployments, governance.
+- [Metaflow](https://metaflow.org): Open-source, human-centric framework for building and managing ML/AI systems.
+
+## Docs
+- [Outerbounds documentation](https://docs.outerbounds.com): Platform guides, getting started, end-to-end examples.
+- [Metaflow documentation](https://docs.metaflow.org): SDK and CLI reference for authoring and running flows.
+- [Get started](https://outerbounds.com/get-started): Book a demo / connect to the platform.
+
+## Packages
+- [metaflow (PyPI)](https://pypi.org/project/metaflow/): `pip install metaflow` — the open-source SDK and CLI.
+- [outerbounds (PyPI)](https://pypi.org/project/outerbounds/): `pip install outerbounds` — the official platform client and configuration CLI.
+
+## Source
+- [Netflix/metaflow (GitHub)](https://github.com/Netflix/metaflow): The Metaflow source repository.
+- [Outerbounds GitHub organization](https://github.com/outerbounds): Metaflow tools, extensions, Terraform modules, and project templates.
+
+## Community
+- [Blog](https://outerbounds.com/blog): Metaflow and Outerbounds releases, case studies, ML infrastructure.
+- [Community Slack](http://slack.outerbounds.co/): ~6k members.
+- [YouTube](https://www.youtube.com/@outerbounds): Talks and tutorials.
+
+## Legal
+- [Terms of Use](https://outerbounds.com/terms-of-use)
+- [Privacy Policy](https://outerbounds.com/privacy-policy)

@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/outerbounds/ ; https://docs.metaflow.org/ ; https://docs.outerbounds.com/
+clis:
+  - name: outerbounds
+    package: outerbounds (PyPI)
+    install:
+      - pip install outerbounds
+    purpose: >-
+      First-party CLI that configures and authenticates a local environment against
+      the managed Outerbounds platform.
+    key_commands:
+      - command: outerbounds configure
+        description: Authenticate and configure the local environment against an Outerbounds deployment (perimeter).
+  - name: metaflow
+    package: metaflow (PyPI)
+    install:
+      - pip install metaflow
+    purpose: >-
+      The Metaflow SDK exposes flows as executable Python scripts; the CLI surface is
+      invoked per-flow via `python <flow>.py <command>`.
+    key_commands:
+      - command: python <flow>.py run
+        description: Execute a flow end to end.
+      - command: python <flow>.py resume
+        description: Resume a flow from the last successful step.
+      - command: python <flow>.py show
+        description: Show the structure and docstrings of a flow.
+      - command: python <flow>.py logs
+        description: Retrieve logs for a step or task.
+      - command: python <flow>.py card
+        description: View or serve Metaflow cards for a run.
+notes: >-
+  The developer surface for Outerbounds is the Metaflow Python SDK plus the outerbounds
+  configuration CLI, not an HTTP REST API. The binary packages are catalogued in
+  packages/outerbounds-packages.yml.

@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/outerbounds/ ; https://pypi.org/project/metaflow/
+packages:
+  - language: python
+    registry: pypi
+    name: metaflow
+    url: https://pypi.org/project/metaflow/
+    install: pip install metaflow
+    official: true
+    open_source: true
+    repo: https://github.com/Netflix/metaflow
+    latest_version: 2.19.35
+    description: >-
+      The open-source, human-centric framework for building and managing real-life
+      AI and ML systems. Originally developed at Netflix and now supported by
+      Outerbounds; the primary developer SDK and CLI for authoring and running flows.
+  - language: python
+    registry: pypi
+    name: outerbounds
+    url: https://pypi.org/project/outerbounds/
+    install: pip install outerbounds
+    official: true
+    open_source: false
+    license: Proprietary
+    latest_version: 0.12.37
+    maintainers: [Outerbounds Inc.]
+    description: >-
+      Official Outerbounds platform client and CLI. Configures and connects a local
+      environment to the managed Outerbounds/Metaflow platform. Optional extras for
+      Azure, GCP, OpenTelemetry, and Snowflake integrations.
